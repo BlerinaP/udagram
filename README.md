@@ -23,7 +23,7 @@ The project can run but is missing some information to connect to the database a
 
 - A RDS database running Postgres.
 
-- A S3 bucket for hosting uploaded pictures.
+- A S3 bucket for hosting uploaded picturess.
 
 ```
 
