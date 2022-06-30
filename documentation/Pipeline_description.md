@@ -1,6 +1,6 @@
 # Pipeline Process
 
-![Pipeline](pipeline_diagram.png)
+![Pipeline](pipeline-diagram.png)
 
 * Orbs: 
 ```
@@ -15,7 +15,7 @@
 
 * Frontend steps:
     1. Spin Up Environment: install node js and its packages
-    2. Preparing Environment Variables:  exports all environment variables from CircleCI configuration to a .env file
+    2. Preparing Environment Variables: exporting environment variables from CircleCl config
     3. Checkout: go to the root directory
     4. Install dependencies: install packages in package.json
     5. Install aws cli: to implement aws cli commands used in deployment
@@ -23,7 +23,7 @@
 
 * API steps:
     1. Spin Up Environment:install node js and its packages
-    2. Preparing Environment Variables: exports all environment variables from CircleCI configuration to a .env file
+    2. Preparing Environment Variables: exporting environment variables from CircleCl config
     3. Checkout: go to the root directory
     4. Install dependencies: install packages in package.json
     5. Setting up Elastic Beanstalk cli: to implement eb cli commands used in deployment
@@ -32,4 +32,6 @@
 
 * Workflow: 
     1. frontend job
+        - filter: triger only on main branch
     2. api job
+        - filter: triger only on main branch

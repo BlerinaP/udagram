@@ -23,7 +23,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/tasnimsamir/Hosting-a-Full-Stack-Application.git"
+        "url": "git@github.com:BlerinaP/udagram.git"
     }
 }
 
